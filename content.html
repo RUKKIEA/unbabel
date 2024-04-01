@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Language Operation</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ <link rel="stylesheet" href="./content.css">
+ <link
+ rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-dark sticky-top ps-5">
+    <div class="container-fluid">
+     <a class="navbar-brand" href="./index.html">
+      <img src="./unbabel-real/nav-logo.svg" alt="">
+     </a>
+     <ul class="nav col-12 col-md-auto mb-3 justify-content-center mb-md-0">
+      <li id="dropdown" class="nav-item dropdown">
+       <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         Language Operations
+       </a>
+       <div class="dropdown-menu dropdown-menu" >
+     <ul id="dropdown-content" class=" list-unstyled d-flex flex-row gap-1" >
+         <li>
+          <a class="dropdown-item" href="./lang-operation.html">
+          <div class="d-flex align-items-start gap-2">
+           <img src="./unbabel-real/menu-1-icon-Langops.svg" alt="">
+           <div>
+             <strong class="d-block">Language Operation</strong>
+             <small>See how Unbabel is leading the <br> way on LangOps</small>
+           </div>
+          </div>
+         </a></li>
+         <li><a class="dropdown-item" href="./langops-platform.html">
+          <strong class="d-block">LangOps Platform</strong>
+          <small>Get to know the LangOps platform</small>
+         </a></li>
+         <div class="d-none d-lg-block vr mx-4 opacity-10">&nbsp;</div>
+         <li><a class="dropdown-item" href="./langops-universe.html"> 
+          <strong class="d-block">LangOps Universe 2022</strong>
+          <small>Watch the session's on-demand <br> right here and see what you <br> missed at the event.</small></a>
+          <img src="./unbabel-real/LOU-2022_Nav-graphic.jpg" class="mt-5" height="40%" alt="">
+         </li>
+          
+       </ul>
+       </div>
+     </li>
+     <li class="nav-item dropdown">
+       <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         Solutions
+       </a>
+       <div class="dropdown-menu dropdown-menu-end p-3">
+    <ul class="list-unstyled d-flex flex-row gap-1">
+         <li><a class="dropdown-item" href="./customer-service.html">
+          <div class="d-flex align-items-start gap-2 mb-2">
+            <img src="./unbabel-real/menu-2-icon-CustomerService.svg" alt="">
+            <div>
+                <strong class="d-block">Customer Service</strong>
+              <small>Super power your current agents <br> and expand globally</small>
+            </div>
+           </div>
+         </a>
+         <a class="dropdown-item" href="./partnership.html"><div class="d-flex align-items-start gap-2">
+            <img src="./unbabel-real/Icon-Partnerships.svg" alt="">
+            <div>
+              <strong class="d-block">Partnerships</strong>
+              <small>See how we support BPOs and <br> technology vendors</small>
+            </div>
+           </div>
+          </a>
+          </li>
+         <li><a class="dropdown-item" href="./content.html">
+          <div class="d-flex align-items-start gap-2">
+            <img src="./unbabel-real/menu-2-icon-Marketing.svg" alt="">
+            <div>
+              <strong class="d-block">Multilingual Content</strong>
+              <small>Take your content to a whole new <br> global audience</small>
+            </div>
+           </div>
+         </a></li>
+         <div class="d-none d-lg-block vr mx-4 opacity-10">&nbsp;</div>
+         <li class="bg-primary"><a class="dropdown-item text-light" href="#"> 
+          <strong> INDUSTRIES</strong>
+          <ul class="ms-0" style="list-style-type: none;">
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">Gaming</a></li>
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">Retail</a></li>
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">Tech</a></li>
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">Travel</a></li>
+          </ul>
+        </a>
+         </li>
+       </ul>
+       </div>
+      
+     </li>
+     <li class="nav-item dropdown">
+       <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         Platform
+       </a>
+       <div class="dropdown-menu dropdown-menu-end p-3">
+   <ul class="list-unstyled d-flex flex-row gap-1" style="max-width: 765px;">
+         <li><a class="dropdown-item" href="#">
+          <div class="d-flex align-items-start gap-2 mb-4">
+            <img src="./unbabel-real/menu-3-icon-Product.svg" alt="">
+            <div>
+              <strong class="d-block">Product</strong>
+              <small>Find out about our cutting edge <br> tech</small>
+            </div>
+           </div>
+           <div class="d-flex align-items-start gap-2">
+            <img src="./unbabel-real/menu-3-icon-Languages.svg" alt="">
+            <div>
+              <strong class="d-block">Supported Languages</strong>
+              <small>Explore the languages that <br> Unbabel supports</small>
+            </div>
+           </div>
+         </a></li>
+         <li><a class="dropdown-item" href="#">
+          <div class="d-flex align-items-start gap-2 mb-4">
+            <img src="./unbabel-real/menu-3-icon-ourEditors.svg" alt="">
+            <div>
+              <strong class="d-block">Community</strong>
+              <small>Discover how our Community powers <br> Unbabel</small>
+            </div>
+           </div>
+           <div class="d-flex align-items-start gap-2">
+            <img src="./unbabel-real/security-icon-menu.svg" alt="">
+            <div>
+              <strong class="d-block">Privacy & Security</strong>
+              <small>Learn about our commitment to <br> keeping our customer data safe</small>
+            </div>
+           </div>
+         </a></li>
+         <div class="d-none d-lg-block vr mx-4 opacity-10">&nbsp;</div>
+         <li class="bg-primary"><a class="dropdown-item text-light" href="#"> 
+          <strong> INTEGRATION</strong>
+          <ul class="d-flex flex-column gap-2" style="list-style-type: none;">
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">Salesforce</a></li>
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">Zendesk</a></li>
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">Intercom</a></li>
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">See all</a></li>
+          </ul>
+        </a></li>
+       </ul>
+       </div>
+     </li>
+     <li class="nav-item dropdown">
+       <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         Resources
+       </a>
+       <div class="dropdown-menu dropdown-menu-end p-3">
+     <ul class="list-unstyled d-flex flex-row gap-1" style="max-width: 765px;">
+         <li><a class="dropdown-item" href="#">
+          <div class="d-flex align-items-start gap-2 mb-4">
+            <img src="./unbabel-real/Icon-Resources.svg" alt="">
+            <div>
+              <strong class="d-block">Resource Center</strong>
+              <small>Check out our blogs, guides, <br> webinars and more</small>
+            </div>
+           </div>
+           <div class="d-flex align-items-start gap-2">
+            <img src="./unbabel-real/menu-4-icon-CaseStudies.svg" alt="">
+            <div>
+              <strong class="d-block">Research</strong>
+              <small>Unbabel's award winning <br> projects and publications</small>
+            </div>
+           </div>
+         </a></li>
+         <li><a class="dropdown-item" href="#">
+          <div class="d-flex align-items-start gap-2 mb-4">
+            <img src="./unbabel-real/menu-2-icon-CustomerService.svg" alt="">
+            <div>
+              <strong class="d-block">Customer Stories</strong>
+              <small>See how our customers succeed <br> with Unbabel</small>
+            </div>
+           </div>
+           <div class="d-flex align-items-start gap-2">
+            <img src="./unbabel-real/menu-4-icon-EditorHub.svg" alt="">
+            <div>
+              <strong class="d-block">Editors Hub</strong>
+              <small>Become part of our translation <br> community</small>
+            </div>
+           </div>
+         </a></li>
+         <div class="d-none d-lg-block vr mx-4 opacity-10">&nbsp;</div>
+         <li class="bg-primary"><a class="dropdown-item text-light" href="#"> 
+          <strong class="d-block"> SUPPORT</strong>
+          <ul class="d-flex flex-column gap-2" style="list-style-type: none;">
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">Customer Support</a></li>
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">Community Support</a></li>
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">Contact us</a></li>
+          </ul>
+          </a>
+          </li>
+       </ul>
+       </div>
+     
+     </li>
+     <li class="nav-item">
+       <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+     </li>
+     <li class="nav-item dropdown">
+       <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Company</a>
+       <div class="dropdown-menu dropdown-menu-end p-3">
+    <ul class="list-unstyled d-flex flex-row gap-1">
+         <li><a class="dropdown-item" href="#">
+          <strong class="d-block">AT UNBABEL</strong>
+          <ul class="d-flex flex-column gap-2" style="list-style-type: none;">
+            <li> <a class="text-dark link-underline link-underline-opacity-0" href="#">About Us</a></li>
+            <li><a class="text-dark link-underline link-underline-opacity-0" href="#">Career</a></li>
+            <li><a class="text-dark link-underline link-underline-opacity-0" href="#">News</a></li>
+          </ul>
+         </a></li>
+         <li><a class="dropdown-item" href="#">
+            <strong class="d-block">RESEARCH</strong>
+          <ul class="d-flex flex-column gap-2" style="list-style-type: none;">
+            <li><a class="text-dark link-underline link-underline-opacity-0" href="#">COMET</a></li>
+            <li><a class="text-dark link-underline link-underline-opacity-0" href="#">MAIA</a></li>
+            <li><a class="text-dark link-underline link-underline-opacity-0" href="#">UNBABEL4EU</a></li>
+            <li><a class="text-dark link-underline link-underline-opacity-0" href="#">See All</a></li>
+          </ul>
+         </a>
+        </li>
+         <div class="d-none d-lg-block vr mx-4 opacity-10">&nbsp;</div>
+         <li><a class="dropdown-item" href="#"> 
+          <strong class="d-block">EVENTS</strong>
+          <ul class="d-flex flex-column gap-2" style="list-style-type: none;">
+            <li><a class="text-dark link-underline link-underline-opacity-0" href="#">Webinars</a></li>
+          </ul>
+      </a></li>
+       </ul>
+       </div>
+      
+     </li>
+     <li class="nav-item">
+       <a class="nav-link active" aria-current="page" href="#">login</a>
+     </li>
+     <a href="./demo.html">
+      <button class="btn btn-outline-dark rounded-pill me-3" type="submit">
+       Get a Demo
+     </button>
+     </a>
+     
+     <div>
+      <div style=" background-color: #00828f; color: white; text-align: center; border-radius: 50%; padding: 3px 10px 3px;"><p>EN</p></div>
+      <div style="display: none;">DE</div>
+      <div style="display: none;">FR</div>
+      <div style="display: none;">NL</div>
+      <div style="display: none;">DA</div>
+      <div style="display: none;">SV</div>
+    </div>
+     </ul>
+     
+    </div>
+  </nav>
+
+<!-- hero section -->
+ <section class="hero">
+  <div class="container-fluid pt-5">
+  <div class="row d-flex flex-row align-items-center justify-content-center">
+   <div class="col-6 ps-5">
+    <h1 class="mt-4 mb-4">Multilingual content translation</h1>
+    <h4 class="mb-3">Expand to new markets fast and engage with local audiences</h4>
+    <p class="hero-p mb-5">Unbabel’s hybrid approach to translation combines AI and optional human review so you communicate your brand voice in any language at the speed, quality, and cost that meets your business needs.</p>
+    <button class="btn btn-lg rounded-pill me-4 hero-btn1" >Get a Demo</button>
+   </div>
+   <div class="col-6">
+    <img src="./content/Marketing-hero-graphic.svg" height="400px" alt="">
+   </div>
+  </div>
+ </div>
+ </section>
+
+ <section class="contain mt-5 pt-5 pb-5 ps-5 pe-5">
+  <div class="container-fluid">
+    <div class="row ms-5">
+      <h2 class="text-center mb-5">Worldwide leading brands trust Unbabel</h2>
+      <div class="col-3 mb-5">
+        <img src="./unbabel-real/Adidas-logo-.svg" alt="">
+      </div>
+      <div class="col-3 mb-5">
+        <img src="./unbabel-real/Patagonia-logo.svg" alt="">
+      </div>
+      <div class="col-3 mb-5">
+        <img src="./unbabel-real/Farfetch_Logo.svg" alt="">
+      </div>
+      <div class="col-3 mb-5">
+        <img src="./unbabel-real/panasonic.svg" alt="">
+      </div>
+      <div class="col-3 mb-5">
+        <img src="./unbabel-real/Virgin-Pulse-logo.svg" alt="">
+      </div>
+      <div class="col-3 mb-5">
+        <img src="./unbabel-real/rakuten-kobo.svg" alt="">
+      </div>
+      <div class="col-3 mb-5">
+        <img src="./unbabel-real/booking-com.svg" alt="">
+      </div>
+      <div class="col-3 mb-5">
+        <img src="./unbabel-real/skyscanner-logo.svg" alt="">
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Multilingual solutions for multichannel <br> content</h2>
+          <p class="mt-3">From awareness to acquisition to retention, we support the customer journey with scalable <br> translations — mapped to the level of quality and brand adaptation you choose — to ensure your <br> global content resonates across with any local audience.</p>
+          <button class="btn btn-lg rounded-pill mb-5 hero-btn1" >Get a Demo</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section>
+  <div class="container mb-5 pb-5">
+    <div class="row text-center gap-4">
+      <div class="col-3 border-none rounded container-div">
+        <img src="./content/site_and_blog.svg" alt="">
+        <p>website</p>
+      </div>
+      <div class="col-3 border-none rounded container-div">
+        <img src="./content/email-marketing.svg" alt="">
+        <p>Email Marketing</p>
+      </div>
+      <div class="col-3 border-none rounded container-div">
+        <img src="./content/press-release.svg" alt="">
+        <p>Press Releases</p>
+      </div>
+      <div class="col-3 border-none rounded container-div">
+        <img src="./content/product-descriptions.svg" alt="">
+        <p>Product Descriptions</p>
+      </div>
+      <div class="col-3 border-none rounded container-div">
+        <img src="./content/social-media.svg" alt="">
+        <p>Social Media</p>
+      </div>
+      <div class="col-3 border-none rounded container-div">
+        <img src="./content/ecommece-catalog.svg" alt="">
+        <p>Ecommerce catalogs</p>
+      </div>
+      <div class="col-3 border-none rounded container-div">
+        <img src="./content/marketing-collateral.svg" alt="">
+        <p>Marketing Collateral</p>
+      </div>
+      <div class="col-3 border-none rounded container-div">
+        <img src="./content/blog.svg" alt="">
+        <p>Blogs</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mkt">
+  <div class="container">
+    <div class="row">
+      <div class="col-6 mkt-txt">
+        <h2 class="mb-5">Enhanced Go-To-Market <br> Delivery</h2>
+        <p>Roll out launches and releases up to 65% faster so you can consistently deliver timely and relevant content to your customers across new markets in your target languages.</p>
+      </div>
+      <div class="col-6 animate__animated animate__bounceInRight">
+        <img src="./content/go-to-marketing.svg" height="120%" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section >
+  <div class="container mt-5  quality-content">
+    <div class="row">
+      <div class="col-6 animate__animated animate__bounceInLeft">
+        <img src="./content/quality-content.svg" height="120%" alt="">
+      </div>
+      <div class="col-6 quality-content-txt">
+        <h2 class="mb-5">The right quality for your content</h2>
+        <p>Customers today have unique requirements and demand personalization - choose which markets and content types require superior quality, and which is lower priority.</p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+<section class="mkt">
+  <div class="container">
+    <div class="row">
+      <div class="col-6 mkt-txt">
+        <h2 class="mb-5">360° visibility into performance</h2>
+        <p>Enjoy complete transparency with reporting on your quality, usage, and spend, giving you control of how you manage your translations and the confidence that you’re meeting your goals within budget.</p>
+      </div>
+      <div class="col-6 animate__animated animate__bounceInRight">
+        <img src="./content/visibility.svg" height="120%" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+<section >
+  <div class="container mt-5  quality-content">
+    <div class="row">
+      <div class="col-6 animate__animated animate__bounceInLeft">
+        <img src="./content/save.svg" height="120%" alt="">
+      </div>
+      <div class="col-6 quality-content-txt">
+        <h2 class="mb-5">Save as you go with our hybrid approach</h2>
+        <p>Our AI-driven Quality Estimation optimizes workflows, automating machine translations that meet quality targets, while intelligently looping in human reviewers when needed to make key enhancements. We pass back any savings to you while ensuring top-notch translations.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="arrange-sec">
+  <div class="container">
+    <div class="arrange">
+      <div class="row">
+        <div class="col-6 mkt-txt">
+          <h2 class="mb-5">How are global marketers getting their multilingual content right at scale?</h2>
+          <button class="btn btn-lg rounded-pill me-4 hero-btn1" >Read now</button>
+        </div>
+        <div class="col-6">
+          <img src="./content/global-trends-marketing-localization2023.png" height="80%" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="translates">
+  <h2 class="mb-5 text-center">See how Unbabel translates into real-world success</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <a href="#">
+          <div class="p-contain mb-5">
+            <p class="pt-5 p-tag">“24 hour turnaround for on-brand marketing materials.”</p>
+          </div>
+          <img src="./content/logitech.svg" height="10%" class="ms-5" alt="">
+        </a>
+      </div>
+    <div class="col-4">
+      <a href="#">
+        <div class="p-contain mb-5">
+          <p class="pt-5 p-tag">“Less than 6 weeks for full platform to platform integration.”
+          </p>
+        </div>
+        <img src="./content/accor-hotels.svg" height="10%" class="ms-5" alt="">
+      </a>
+    </div>
+    <div class="col-4">
+      <a href="#">
+        <div class="p-contain mb-5">
+          <p class="pt-5 p-tag">“Unbabel help set up the right process, involve our native language speakers and engage with our tech.”
+          </p>
+        </div>
+        <img src="./content/photobox.svg" height="10%" class="ms-5" alt="">
+      </a>
+    </div>
+    <div class="col-4">
+      <a href="#">
+        <div class="p-contain mb-5">
+          <p class="pt-5 p-tag">“5-20K words translated within a 24-hour deadline.”
+          </p>
+        </div>
+        <img src="./content/physio.svg" height="10%" class="ms-5" alt="">
+      </a>
+    </div>
+    <div class="col-4">
+      <a href="#">
+        <div class="p-contain mb-5">
+          <p class="pt-5 p-tag">“20% reduction in  turnaround times.”</p>
+        </div>
+        <img src="./content/anuvu.svg" height="10%" class="ms-5" alt="">
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    
+  </div>
+  </div>
+</section>
+
+<section class="floating">
+  <div class="container-fluid">
+    <div class="row pt-5">
+      <div class="col-3">
+        <div class="row mb-5">
+          <div class="help me-5">
+            <img src="./content/helpshift-logo-white.svg" class="mt-5 ms-4" height="30px" alt="">
+          </div>
+          <div class="inter">
+            <img src="./content/intercom-logo-white.svg" class="mt-4 ms-4" alt="">
+          </div>
+        </div>
+        
+        <div class="row mb-5">
+          <div class="kust me-5">
+            <img src="./content/Kustomer_logo_2023.svg" class="mt-4 ms-4" alt="">
+          </div>
+          <div class="zen">
+            <img src="./content/Zendesk-logo-white.svg" class="mt-4 ms-4" alt="">
+          </div>
+        </div>
+        
+      </div>
+      <div class="col-6 text-center">
+        <h2 class="mb-5 text-light">We work where you work</h2>
+        <p class="mb-5 text-light">Seamlessly integrate Unbabel directly into the most popular marketing automation and content management systems such as Salesforce Marketing Cloud, Hubspot, Shopify, Stibo & many more.</p>
+        <button class="btn btn-lg rounded-pill floating-txt-btn " >Get a Demo</button>
+      </div>
+      <div class="col-3">
+        <div class="row mb-5">
+          <div class="fresh col-6 me-5">
+          <img src="./content/freshdesk_logo.svg" class="mt-5 ms-4" height="30px" alt="">
+        </div>
+        <div class="wix col-6">
+          <img src="./content/WIX.svg" class="mt-5 ms-2" alt="">
+        </div>
+        </div>
+        <div class="row ">
+           <div class="force col-6 me-5">
+          <img src="./content/logo-salesforce.svg" class="mt-5 ms-2" alt="">
+        </div>
+        <div class="oracle col-6">
+          <img src="./content/oracle-logo-2023.svg" class="mt-4 ms-2" alt="">
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="navy-blue-content">
+  <div class="container pt-5 ">
+    <div class="big-content">
+      <img src="./content/big-quote.svg" class="big-quote" alt="">
+      <h2 class="text-light quote-txt mb-5 ">Our content is making it in front of the right audience. And they're getting it. They're clicking it. And they're converting. So it's definitely worth our investment.</h2>
+      <div class="border-top d-flex " style="width: 500px; margin-left: 100px;">
+        <h6 class="pt-3 me-3 text-light">MATT MADDERRA </h6>
+        <p class="pt-3 text-light">Director of Web Solutions, Mouser Electronics</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid marketing">
+    <h2 class="text-center text-light mb-5">INDUSTRIES WE SUPPORT</h2>
+    <div class="row gap-4 ps-5" style="margin-left: 70px;">
+      <div class="col-2 white-div wd1 ps-5 pt-5 pb-5 pe-5 border rounded"><img src="./content/tech.svg" alt=""></div>
+      <div class="col-2 white-div wd2 ps-5 pt-5 pb-5 pe-5 border rounded"><img src="./content/travel.svg" alt=""></div>
+      <div class="col-2 white-div wd3 ps-5 pt-5 pb-5 pe-5 border rounded"><img src="./content/retail.svg" alt=""></div>
+      <div class="col-2 white-div wd4 ps-5 pt-5 pb-5 pe-5 border rounded"><img src="./content/gaming.svg" alt=""></div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="text-center final-sec">
+    <h2 class="mb-5">Are you ready to make your content multilingual?</h2>
+  <button class="btn btn-lg rounded-pill hero-btn1 " >Talk to us</button>
+  </div>
+  
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section -->
+<section class="footer-sec pb-3 pt-3">
+ <div class="container-fluid pt-5">
+   <footer class="ms-5">
+     <div>
+       <div class="row pb-4">
+         <div class="col-7 d-flex flex-row">
+           <div>
+              <img src="./unbabel-real/unbabel footer.svg" alt="">
+           </div>
+           <div class="ms-5">
+             <h5>PRODUCT</h5>
+             <ul class="nav flex-column">
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Product overview</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Integration</a></li>
+             </ul>
+           </div>
+           <div class="ms-5">
+             <h5>RESOURCES</h5>
+             <ul class="nav flex-column">
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Resource Center</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Blog</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Research</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Editor Hub</a></li>
+             </ul>
+           </div>
+           <div class="ms-5">
+             <h5>COMPANY</h5>
+             <ul class="nav flex-column">
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">About Us</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Partnerships</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Careers</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Contact Us</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Press & Media</a></li>
+             </ul>
+           </div>
+           <div class="ms-5">
+             <h5>HELP CENTER</h5>
+             <ul class="nav flex-column">
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">For our Customers</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">For our Editors</a></li>
+             </ul>
+           </div>
+         </div>
+         <div class="col-3"></div>
+         <div class="col-2">
+           <div>
+           <ul class="nav flex-column">
+             <li class="nav-item mb-4"><a href="#" class="nav-link p-0"><img src="./unbabel-real/login.svg" alt="" class="me-3"> Login</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0"><img src="./unbabel-real/Newsletter (2).svg" class="me-3" alt="">Join our Newsletter</a></li>
+           </ul>
+         </div></div>
+       </div>
+       <div class="d-flex flex-column flex-sm-row justify-content-between pt-3 py-4 my-4 border-top">
+         <div class="d-flex flex-row align-items-center">
+           <p class="me-5">&copy; 2024 Unbabel Inc.</p>
+           <ul class="nav flex-row">
+             <li class="nav-item mb-2 me-5 P-small"><a href="#" class="nav-link p-0">Terms of Service</a></li>
+             <li class="nav-item mb-2 me-5 P-small"><a href="#" class="nav-link p-0">Terms & Condition</a></li>
+             <li class="nav-item mb-2 me-5 P-small"><a href="#" class="nav-link p-0">Privacy</a></li>
+             <li class="nav-item mb-2 me-5 P-small"><a href="#" class="nav-link p-0">Cookie Policy</a></li>
+             <li class="nav-item mb-2 me-5 P-small"><a href="#" class="nav-link p-0">Responsible Disclosure</a></li>
+           </ul>
+         </div>
+         <ul class="list-unstyled d-flex me-4">
+           <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./unbabel-real/facebook.svg" alt=""></a></li>
+           <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./unbabel-real/youtube.svg" alt=""></a></li>
+           <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./unbabel-real/twitter.svg" alt=""></a></li>
+           <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./unbabel-real/linkedin.svg" alt=""></a></li>
+           <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./unbabel-real/instagram.svg" alt=""></a></li>
+         </ul>
+       </div>
+     </div>
+   </footer>
+   </div>
+</section>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

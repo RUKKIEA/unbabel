@@ -1,0 +1,136 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ /* overflow-x: hidden;
+ overflow-y: visible; */
+}
+nav{
+ border-bottom: 2px solid lightgrey;
+ box-shadow: 0px 2px #ececec;
+ background-color: white;
+ z-index: 3;
+}
+.nav-link{
+ color: black;
+}
+.round-btn{
+ border-radius: 20px;
+}
+
+.hero-btn{
+ border-radius: 40px;
+}
+.hero-btn1{
+background-color:#f9623e;
+color: white;
+box-shadow:5px 5px #040237 ;
+}
+.hero-btn1:hover{
+background-color: #040237;
+color: white;
+}
+.hero-btn2{
+border: 2px solid  #040237;
+}
+.hero-btn2:hover{
+border: 2px solid grey;
+}
+.col-6 h1{
+font-size: 52px;
+font-weight: 700;
+}
+p{
+font-size: 18px;
+font-weight: 400;
+}
+
+/* second section */
+h2{
+font-size:40px;
+font-weight: 600;
+}
+ .contain-pad{
+  background-color: #ebf1f7;
+ }
+
+ .txt-container{
+  margin-top: 100px;
+ }
+ h3{
+  font-size:25px;
+  font-weight: 600;
+  }
+  .blue{
+   background-color: #dceeeb;
+  }
+  .pink{
+   background-color: #ffaebc;
+   padding-bottom: 80px;
+  }
+  .featured{
+   background-image: url(./unbabel-real/Background-Featured-Integration-02.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 100px 0;
+   color: white;
+  }
+  .featured-img{
+   background-color: white;
+   width: 124px;
+   height: 124px;
+   padding: 20px;
+   border-radius: 10px; 
+  }
+.col-12img{
+  /* border-right: 1px dashed white;
+  border-bottom: 1px dashed white; */
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+/* border-bottom: 1px dashed white; */
+}
+.bold{
+ font-size:18px;
+  font-weight: 600;
+}
+.center-img{
+ display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.P-small{
+ font-size:12px;
+ font-weight: 400;
+}
+.large-pink{
+ background-image: url(./unbabel-real/CTA-Background-Pink.svg);
+ background-repeat: no-repeat;
+ background-size: conver;
+}
+.blue-btn{
+ background-color:#3843d0;
+color: white;
+box-shadow:5px 5px white ;
+}
+.blue-btn:hover{
+ background-color: white;
+}
+
+.lrg-txt{
+ font-size:52px;
+ font-weight: 700;
+ color: white;
+}
+.blue-txt{
+ color: #3843d0;
+}
+.footer-sec{
+ background-color:#040237; 
+ color: white;
+}
+.footer-sec a{
+ color: white;
+}

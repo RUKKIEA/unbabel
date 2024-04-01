@@ -1,0 +1,113 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ /* overflow-x: hidden;
+ overflow-y: visible; */
+}
+nav{
+ border-bottom: 2px solid lightgrey;
+ box-shadow: 0px 2px #ececec;
+ background-color: white;
+ z-index: 3;
+}
+.nav-link{
+ color: black;
+}
+/* body section */
+.hero-btn1{
+ background-color:#f9623e;
+ color: white;
+ box-shadow:5px 5px white ;
+ }
+ .hero-btn1:hover{
+ background-color:white ;
+ color: #040237;
+ }
+
+ .hero{
+   background-image: url(./langops-universe/LangOps-Universe-2022_Header-bg.webp);
+   background-repeat:no-repeat;
+   background-size: cover;
+   padding-bottom: 200px;
+  }
+  .hero h1{
+   font-size:52px;
+   font-weight: 700;
+   line-height: 62px;
+   color: white;
+  }
+  .hero p{
+   font-size:18px;
+   font-weight: 400;
+   line-height: 27px;
+   color: white;
+   width: 60%;
+   margin: auto;
+  }
+h2{
+ font-size:40px;
+ font-weight: 600;
+ line-height: 50px;
+} 
+h3{
+ font-size:25px;
+   font-weight: 600;
+   line-height: 31px;
+   color: rgb(56, 67, 208);
+}
+
+.speakers{
+ margin-top: 150px;
+}
+.speakers h4{
+ font-size:15px;
+ font-weight: 600;
+ line-height: 23px;
+ color: rgb(56, 67, 208);
+}
+.speakers p{
+ font-size:15px;
+ font-weight: 400;
+ line-height: 23px;
+}
+.speakers h5{
+ font-size:15px;
+ font-weight: 600;
+ line-height: 23px;
+}
+.optimized{
+ font-size:18px;
+ font-weight: 400;
+ line-height: 24px;
+}
+.optimized h3{
+ color: black;
+}
+.extra h5{
+ font-size:18px;
+ font-weight: 600;
+ line-height: 23px;
+ color: rgb(56, 67, 208);
+}
+.extra p{
+ font-size:15px;
+ font-weight: 400;
+ line-height: 20px;
+}
+.thanks{
+ margin: 150px 0;
+}
+
+
+
+
+
+
+.footer-sec{
+ background-color:#040237; 
+ color: white;
+}
+.footer-sec a{
+ color: white;
+}

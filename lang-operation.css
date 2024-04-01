@@ -1,0 +1,122 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ /* overflow-x: hidden;
+ overflow-y: visible; */
+}
+nav{
+ border-bottom: 2px solid lightgrey;
+ box-shadow: 0px 2px #ececec;
+ background-color: white;
+ z-index: 3;
+}
+.nav-link{
+ color: black;
+}
+
+.ops-hero{
+ background-image: url(./lang-ops/LangOps-hero-image.svg);
+ background-repeat:no-repeat;
+ background-size: cover;
+ height: 415px;
+ 
+}
+
+.ops-hero h1{
+ font-size:52px ;
+ font-family: 700;
+ line-height: 62px;
+}
+.heading-p{
+ font-size:18px ;
+ font-family: 400;
+ line-height: 27px;
+ color: white;
+}
+article{
+ width: 60%;
+ margin: auto;
+ text-justify: left;
+}
+.article-p{
+ font-size:18px ;
+ font-family: 400;
+ line-height: 23px;
+}
+.navy{
+ height: 230px;
+ background-color: #040237;
+ color: white;
+}
+h2{
+ font-size:40px ;
+ font-family: 600;
+ line-height: 50px;
+}
+h3{
+ font-size:25px ;
+ font-family: 600;
+ line-height: 32px;
+ color: #24204c;
+}
+
+h4, .bold{
+ font-size:18px ;
+ font-weight: 600;
+ line-height: 24px;
+}
+.bolder{
+ font-size:27px ;
+ font-family: 600;
+ line-height: 36px;
+}
+.hero-btn1{
+ background-color:#f9623e;
+ color: white;
+ box-shadow:5px 5px #040237 ;
+ }
+ .hero-btn1:hover{
+ background-color: #040237;
+ color: white;
+ }
+
+.card-body a{
+ text-decoration: none;
+ color: #3c47d1;
+ font-size:18px ;
+ font-family:600;
+ line-height: 24px;
+}
+.card-body p{
+ font-size:18px ;
+ font-family: 600;
+ line-height: 27px;
+}
+
+.ready{
+ margin: 150px 0 100px;
+}
+.ready h2{
+ color: #040237;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-sec{
+ background-color:#040237; 
+ color: white;
+}
+.footer-sec a{
+ color: white;
+}

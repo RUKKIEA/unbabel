@@ -1,0 +1,102 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ /* overflow-x: hidden;
+ overflow-y: visible; */
+}
+nav{
+ border-bottom: 2px solid lightgrey;
+ box-shadow: 0px 2px #ececec;
+ background-color: white;
+ z-index: 3;
+}
+.nav-link{
+ color: black;
+}
+
+/* body */
+h1{
+ font-size: 52px;
+ font-weight:700;
+ line-height: 62px;
+}
+.hero h4{
+font-size: 25px;
+font-weight:600;
+line-height: 32px;
+color: rgb(56, 67, 208);
+}
+p{
+ font-size: 18px;
+ font-weight:400;
+ line-height: 27px;
+}
+.hero-btn1{
+background-color:#f9623e;
+color: white;
+box-shadow:5px 5px #040237 ;
+}
+.hero-btn1:hover{
+background-color: #040237;
+color: white;
+
+}
+h2{
+ font-size: 40px;
+ font-weight:600;
+ line-height: 50px;
+}
+.video{
+ background-image: url(./lang-platform/video-frame.svg);
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+.offer{
+ margin-top: 100px;
+ padding: 50px 0;
+ background-color: #ebf1f7;
+}
+.offer-card{
+ height: 380px; 
+ width: 220px;
+ background-color: white;
+ border: none;
+}
+.pple-bg{
+ background-image: url(./lang-platform/langops-background.svg);
+ background-repeat:no-repeat;
+ background-size: cover;
+ height: 650px;
+}
+.pad-txt{
+ padding-top: 150px;
+}
+
+.blue-btn{
+ background-color:#3843d0;
+color: white;
+box-shadow:5px 5px white ;
+}
+.blue-btn:hover{
+ background-color: white;
+}
+
+.large-pink{
+  background-image: url(./lang-platform/CTA-Background-Pink.svg);
+  background-repeat: no-repeat;
+  background-size: conver;
+  height: 450px;
+}
+
+
+
+
+
+.footer-sec{
+ background-color:#040237; 
+ color: white;
+}
+.footer-sec a{
+ color: white;
+}

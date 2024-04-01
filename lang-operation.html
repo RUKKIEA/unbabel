@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Language Operation</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ <link rel="stylesheet" href=".//lang-operation.css">
+</head>
+<body>
+ 
+  <nav class="navbar navbar-expand-lg bg-body-dark sticky-top ps-5">
+    <div class="container-fluid">
+     <a class="navbar-brand" href="./index.html">
+      <img src="./unbabel-real/nav-logo.svg" alt="">
+     </a>
+     <ul class="nav col-12 col-md-auto mb-3 justify-content-center mb-md-0">
+      <li id="dropdown" class="nav-item dropdown">
+       <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         Language Operations
+       </a>
+       <div class="dropdown-menu dropdown-menu" >
+     <ul id="dropdown-content" class=" list-unstyled d-flex flex-row gap-1" >
+         <li>
+          <a class="dropdown-item" href="./lang-operation.html">
+          <div class="d-flex align-items-start gap-2">
+           <img src="./unbabel-real/menu-1-icon-Langops.svg" alt="">
+           <div>
+             <strong class="d-block">Language Operation</strong>
+             <small>See how Unbabel is leading the <br> way on LangOps</small>
+           </div>
+          </div>
+         </a></li>
+         <li><a class="dropdown-item" href="./langops-platform.html">
+          <strong class="d-block">LangOps Platform</strong>
+          <small>Get to know the LangOps platform</small>
+         </a></li>
+         <div class="d-none d-lg-block vr mx-4 opacity-10">&nbsp;</div>
+         <li><a class="dropdown-item" href="./langops-universe.html"> 
+          <strong class="d-block">LangOps Universe 2022</strong>
+          <small>Watch the session's on-demand <br> right here and see what you <br> missed at the event.</small></a>
+          <img src="./unbabel-real/LOU-2022_Nav-graphic.jpg" class="mt-5" height="40%" alt="">
+         </li>
+          
+       </ul>
+       </div>
+     </li>
+     <li class="nav-item dropdown">
+       <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         Solutions
+       </a>
+       <div class="dropdown-menu dropdown-menu-end p-3">
+    <ul class="list-unstyled d-flex flex-row gap-1">
+         <li><a class="dropdown-item" href="./customer-service.html">
+          <div class="d-flex align-items-start gap-2 mb-2">
+            <img src="./unbabel-real/menu-2-icon-CustomerService.svg" alt="">
+            <div>
+                <strong class="d-block">Customer Service</strong>
+              <small>Super power your current agents <br> and expand globally</small>
+            </div>
+           </div>
+         </a>
+         <a class="dropdown-item" href="./partnership.html"><div class="d-flex align-items-start gap-2">
+            <img src="./unbabel-real/Icon-Partnerships.svg" alt="">
+            <div>
+              <strong class="d-block">Partnerships</strong>
+              <small>See how we support BPOs and <br> technology vendors</small>
+            </div>
+           </div>
+          </a>
+          </li>
+         <li><a class="dropdown-item" href="./content.html">
+          <div class="d-flex align-items-start gap-2">
+            <img src="./unbabel-real/menu-2-icon-Marketing.svg" alt="">
+            <div>
+              <strong class="d-block">Multilingual Content</strong>
+              <small>Take your content to a whole new <br> global audience</small>
+            </div>
+           </div>
+         </a></li>
+         <div class="d-none d-lg-block vr mx-4 opacity-10">&nbsp;</div>
+         <li class="bg-primary"><a class="dropdown-item text-light" href="#"> 
+          <strong> INDUSTRIES</strong>
+          <ul class="ms-0" style="list-style-type: none;">
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">Gaming</a></li>
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">Retail</a></li>
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">Tech</a></li>
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">Travel</a></li>
+          </ul>
+        </a>
+         </li>
+       </ul>
+       </div>
+      
+     </li>
+     <li class="nav-item dropdown">
+       <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         Platform
+       </a>
+       <div class="dropdown-menu dropdown-menu-end p-3">
+   <ul class="list-unstyled d-flex flex-row gap-1" style="max-width: 765px;">
+         <li><a class="dropdown-item" href="#">
+          <div class="d-flex align-items-start gap-2 mb-4">
+            <img src="./unbabel-real/menu-3-icon-Product.svg" alt="">
+            <div>
+              <strong class="d-block">Product</strong>
+              <small>Find out about our cutting edge <br> tech</small>
+            </div>
+           </div>
+           <div class="d-flex align-items-start gap-2">
+            <img src="./unbabel-real/menu-3-icon-Languages.svg" alt="">
+            <div>
+              <strong class="d-block">Supported Languages</strong>
+              <small>Explore the languages that <br> Unbabel supports</small>
+            </div>
+           </div>
+         </a></li>
+         <li><a class="dropdown-item" href="#">
+          <div class="d-flex align-items-start gap-2 mb-4">
+            <img src="./unbabel-real/menu-3-icon-ourEditors.svg" alt="">
+            <div>
+              <strong class="d-block">Community</strong>
+              <small>Discover how our Community powers <br> Unbabel</small>
+            </div>
+           </div>
+           <div class="d-flex align-items-start gap-2">
+            <img src="./unbabel-real/security-icon-menu.svg" alt="">
+            <div>
+              <strong class="d-block">Privacy & Security</strong>
+              <small>Learn about our commitment to <br> keeping our customer data safe</small>
+            </div>
+           </div>
+         </a></li>
+         <div class="d-none d-lg-block vr mx-4 opacity-10">&nbsp;</div>
+         <li class="bg-primary"><a class="dropdown-item text-light" href="#"> 
+          <strong> INTEGRATION</strong>
+          <ul class="d-flex flex-column gap-2" style="list-style-type: none;">
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">Salesforce</a></li>
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">Zendesk</a></li>
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">Intercom</a></li>
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">See all</a></li>
+          </ul>
+        </a></li>
+       </ul>
+       </div>
+     </li>
+     <li class="nav-item dropdown">
+       <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         Resources
+       </a>
+       <div class="dropdown-menu dropdown-menu-end p-3">
+     <ul class="list-unstyled d-flex flex-row gap-1" style="max-width: 765px;">
+         <li><a class="dropdown-item" href="#">
+          <div class="d-flex align-items-start gap-2 mb-4">
+            <img src="./unbabel-real/Icon-Resources.svg" alt="">
+            <div>
+              <strong class="d-block">Resource Center</strong>
+              <small>Check out our blogs, guides, <br> webinars and more</small>
+            </div>
+           </div>
+           <div class="d-flex align-items-start gap-2">
+            <img src="./unbabel-real/menu-4-icon-CaseStudies.svg" alt="">
+            <div>
+              <strong class="d-block">Research</strong>
+              <small>Unbabel's award winning <br> projects and publications</small>
+            </div>
+           </div>
+         </a></li>
+         <li><a class="dropdown-item" href="#">
+          <div class="d-flex align-items-start gap-2 mb-4">
+            <img src="./unbabel-real/menu-2-icon-CustomerService.svg" alt="">
+            <div>
+              <strong class="d-block">Customer Stories</strong>
+              <small>See how our customers succeed <br> with Unbabel</small>
+            </div>
+           </div>
+           <div class="d-flex align-items-start gap-2">
+            <img src="./unbabel-real/menu-4-icon-EditorHub.svg" alt="">
+            <div>
+              <strong class="d-block">Editors Hub</strong>
+              <small>Become part of our translation <br> community</small>
+            </div>
+           </div>
+         </a></li>
+         <div class="d-none d-lg-block vr mx-4 opacity-10">&nbsp;</div>
+         <li class="bg-primary"><a class="dropdown-item text-light" href="#"> 
+          <strong class="d-block"> SUPPORT</strong>
+          <ul class="d-flex flex-column gap-2" style="list-style-type: none;">
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">Customer Support</a></li>
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">Community Support</a></li>
+            <li><a class="text-light link-underline link-underline-opacity-0" href="#">Contact us</a></li>
+          </ul>
+          </a>
+          </li>
+       </ul>
+       </div>
+     
+     </li>
+     <li class="nav-item">
+       <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+     </li>
+     <li class="nav-item dropdown">
+       <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Company</a>
+       <div class="dropdown-menu dropdown-menu-end p-3">
+    <ul class="list-unstyled d-flex flex-row gap-1">
+         <li><a class="dropdown-item" href="#">
+          <strong class="d-block">AT UNBABEL</strong>
+          <ul class="d-flex flex-column gap-2" style="list-style-type: none;">
+            <li> <a class="text-dark link-underline link-underline-opacity-0" href="#">About Us</a></li>
+            <li><a class="text-dark link-underline link-underline-opacity-0" href="#">Career</a></li>
+            <li><a class="text-dark link-underline link-underline-opacity-0" href="#">News</a></li>
+          </ul>
+         </a></li>
+         <li><a class="dropdown-item" href="#">
+            <strong class="d-block">RESEARCH</strong>
+          <ul class="d-flex flex-column gap-2" style="list-style-type: none;">
+            <li><a class="text-dark link-underline link-underline-opacity-0" href="#">COMET</a></li>
+            <li><a class="text-dark link-underline link-underline-opacity-0" href="#">MAIA</a></li>
+            <li><a class="text-dark link-underline link-underline-opacity-0" href="#">UNBABEL4EU</a></li>
+            <li><a class="text-dark link-underline link-underline-opacity-0" href="#">See All</a></li>
+          </ul>
+         </a>
+        </li>
+         <div class="d-none d-lg-block vr mx-4 opacity-10">&nbsp;</div>
+         <li><a class="dropdown-item" href="#"> 
+          <strong class="d-block">EVENTS</strong>
+          <ul class="d-flex flex-column gap-2" style="list-style-type: none;">
+            <li><a class="text-dark link-underline link-underline-opacity-0" href="#">Webinars</a></li>
+          </ul>
+      </a></li>
+       </ul>
+       </div>
+      
+     </li>
+     <li class="nav-item">
+       <a class="nav-link active" aria-current="page" href="#">login</a>
+     </li>
+     <a href="./demo.html">
+      <button class="btn btn-outline-dark rounded-pill me-3" type="submit">
+       Get a Demo
+     </button>
+     </a>
+     
+     <div>
+      <div style=" background-color: #00828f; color: white; text-align: center; border-radius: 50%; padding: 3px 10px 3px;"><p>EN</p></div>
+      <div style="display: none;">DE</div>
+      <div style="display: none;">FR</div>
+      <div style="display: none;">NL</div>
+      <div style="display: none;">DA</div>
+      <div style="display: none;">SV</div>
+    </div>
+     </ul>
+     
+    </div>
+  </nav>
+
+<!-- hero section -->
+<section>
+ <div class="container-fluid ops-hero text-center">
+    <h1>Language Operations</h1>
+<p class="heading-p">Language Operations (LangOps) combines AI and human intelligence to enable hassle-free global dialogue.</p>
+
+</div>
+<article class="text-left">
+ <p class="mt-4 mb-4 article-p">Most companies, no matter what their size or revenue, work with language in complicated, intricate ways and usually involve a complex network of departments, processes, systems, agencies, and people. This approach leaves some of the best businesses struggling to maximize their potential and eliminate their language barriers.</p>
+ <p class="article-p">According to the <a href="#">2021 Unbabel LangOps Survey</a> that we conducted among US businesses with global operations, nearly 25% of decision-makers across various industries consider language and cultural barriers one of the top five concerns that challenge global growth.In fact, language is a largely misunderstood growth driver, not a growth blocker.</p>
+ <p class="article-p">With a sharp increase in cross-border eCommerce and online sales, as well as the rise of the work-from-anywhere culture, it’s become necessary for businesses to <a href="#">go borderless</a> by streamlining their multilingual operations.</p>
+ <p class="article-p">But don't worry, we've got your back!</p>
+ <p class="article-p">To empower businesses to perform at their fullest potential, Unbabel has defined and built a new class of technology and process to enable a unified language strategy: Language Operations (LangOps).</p>
+</article>
+</section>
+
+
+<section>
+<div class="col-12 text-center">
+ <img src="./lang-ops/LangOps-string-small.svg" width="60%" alt="">
+</div>
+<div class="col-12 navy text-center">
+ <h2 class="m-auto">What is Language Operations?</h2>
+</div>
+<div class="col-12 text-center">
+ <img src="./lang-ops/LangOps-string-long.svg" width="60%" alt="">
+</div>
+<article>
+ <h3>Language Operations (LangOps) is a cross-disciplinary function that helps global businesses communicate effectively with their multilingual customers and other stakeholders.</h3>
+ <p>Language Operations (LangOps) is a holistic approach to multilingual communication, giving organizations transparency and control over every aspect of language across their business.</p>
+ <h3>So how does LangOps drive global business operations?</h3>
+ <p>Most businesses communicate with their customers in English. But the truth? English speakers only make up roughly a <a href="#">quarter of internet</a> users around the world. And that's both native and non-native speakers (native speakers of English make up <a href="#">roughly 5% </a> of the world's population).</p>
+ <p>Even with English alone, there are several challenges for an organization.</p>
+ <div class="d-flex flex-row align-items-center justify-content-center gap-5 mb-3">
+  <img src="./lang-ops/LangOps-global-spot-image.svg" width="50%" alt="">
+  <div>
+   <h4>Online retail has exploded: The global cross-border ecommerce market is <a href="#">expected to reach $4,820 billion by 2026.</a> </h4>
+   <p class="article-p">With customers and prospects spending more time online, omnichannel communication has become a priority.</p>
+  </div>
+ </div>
+ <div class="d-flex flex-row-reverse align-items-center justify-content-center gap-5 mb-3">
+  <img src="./lang-ops/LangOps-customer-expectation-spot-image.svg" width="50%" alt="">
+  <div>
+   <p class="article-p">Customers’ expectations are evolving constantly. Retaining customers has never been more important — or more difficult. One bad experience or lack of personalization is enough to drive two out of five customers away from a business forever.</p>
+  </div>
+ </div>
+ <div class="d-flex flex-row align-items-center justify-content-center gap-5 mb-3">
+  <img src="./lang-ops/LangOps-customer-service-spot-image.svg" width="50%" alt="">
+  <div>
+   
+   <p class="article-p">Customer service, marketing, and sales are all proactively reaching out and responding to their target audience to address their needs. But these departments are siloed. Customers want to be part of a conversation: <a href="#" class="bold"> More than 70% of customers</a><span class="bold"> expect companies to collaborate on their behalf.</span></p>
+  </div>
+ </div>
+</article>
+</section>
+
+<!-- <section class="img-text"> -->
+ <article>
+<p class="article-p">These challenges are multiplied when your business caters to multiple markets, your workforce is distributed around the world, and English is simply not your customers’ first language. In fact, <span class="bold"> 65% of customers prefer <a href="#">content in their own language</a>  — even if it’s poor quality. And what’s more, 40% will not buy in other languages.</span></p>
+<p  class="article-p">Add to that the hurdles from globalization and scaling your organization. Far too often, language ends up being a major barrier to success.</p>
+<p class="article-p">To be truly global, an organization must deliver consistently excellent communication and service across channels and departments to all its customers and prospects — regardless of language.</p>
+<p class="article-p">And how do organizations currently manage language inefficiencies?</p>
+<p class="article-p">This is probably what it looks like right now.</p>
+<img src="./lang-ops/LangOps-before-image-2.svg"  height="200%">
+<p class="article-p">The points of friction in such a system are too many to count.</p>
+<h3>What you need is a unified language strategy that brings the multilingual operations across the organization and all the existing tools together.</h3>
+<p class="article-p">LangOps is an approach in which AI-powered, human-refined machine translation technology serves as the centerpiece to power an entire organization’s language strategy.</p>
+<p class="article-p">This is the age of operations-for-everything (DevOps, marketing ops, revenue ops, BizOps) — a cross-disciplinary recognition that all roles must leverage technology and analytics to drive collaboration and efficiency across departments. Language should be no different.</p>
+<div class="ps-2 pb-4 pt-4">
+ <img src="./lang-ops/microsoft.svg" alt="">
+</div>
+<h3 class="bolder ps-3">"A decentralized, fragmented and siloed approach to language translation services simply doesn’t work anymore. For corporations like Microsoft, there’s a need and a desire to serve multilingual communication cross-functionally and operationally beyond customer service. Unbabel is driving this movement by breaking the language barrier and creating a centralized way to operationalize language more efficiently and at scale."</h3>
+<h4 class="ps-3">Vikram Nagaraj,</h4>
+<p class="article-p ps-3 mb-5">Global Delivery Partner Manager, Microsoft</p>
+</article>
+<!-- </section> -->
+
+
+
+<section>
+ <div class="col-12 navy text-center">
+  <h2 class="m-auto">LangOps and Localization: What's the Difference?</h2>
+ </div>
+ <article>
+    <h3 class="mt-5">LangOps is the next evolution of localization.</h3>
+  <p class="article-p">Your business is probably already global, with its footprint in several countries — or that’s your goal. In that case, you might have adopted (or considered) localization as your best option.</p>
+  <p class="article-p">So how is LangOps different from localization? And do you have to eliminate your localization function to build LangOps for your organization?</p>
+  <p class="article-p">Let us explain</p>
+  <img src="./lang-ops/LangOps-evolution-2.svg" alt="">
+  <p class="article-p">Localization has become the go-to solution for most businesses trying to expand their global footprint and reach new markets. And so far, the process has served organizations very well — albeit with a few shortcomings.</p>
+  <p class="article-p">As an organization scales and continues to expand its global footprint, issues start cropping up: like selling the product in different languages, <a href="#">serving the customers in their native language</a>, and enabling internal communication across the organization.</p>
+  <p class="article-p">In our <a href="#">survey</a>, we asked decision makers to rank the major obstacles to scaling their business in more languages.* More than one-third of them specified that their top concerns were:</p>
+  <ul>
+   <li class="article-p">The daunting cost of adding more languages</li>
+   <li class="article-p">Having no centralized process or team that handles all the language requests in an organization</li>
+   <li class="article-p">The time-consuming process of adding a new language</li>
+  </ul>
+  <p class="article-p">When digging deeper into their current localization efforts, they listed several other challenges as well, including quality estimation, consistency, security, automation, scalability, and self-service.</p>
+  <img src="./lang-ops/LangOps-augmented-2.svg" alt="">
+  <p class="article-p">What if we can redefine localization?</p>
+  <p class="article-p">If localization could suit up with AI-powered technology and transform into a powerful superhero, it would be LangOps.</p>
+  <p class="article-p">LangOps is how you fast-track your language processes to digital transformation. And it’s where localization is headed next.</p>
+  <p class="article-p">LangOps breaks through the traditionally siloed approach to build a strategy that brings together all the language projects within an organization. <span class="bold">More than 86% of decision makers who participated in our survey believe that a centralized LangOps team managing all the translation and localization efforts in their organization could be extremely or very valuable.*</span> </p>
+  <p class="article-p">With up-to-date technology, LangOps gives you more than enough bang for your buck: It makes the process of adding new languages quicker and more efficient. A whopping 90% of decision makers agree a centralized LangOps platform would be a cost-effective solution that could do more for less.*</p>
+  <p class="article-p">Especially in customer service, a Language Operations platform can make a huge difference. Empowering agents with the right tools and offering transparent insights and feedback on the efficacy of language pairs are some ways in which LangOps enables a business to continually optimize their service.</p>
+  <h4 class="bolder">That's why customer service is the gateway for LangOps.</h4>
+  <p class="article-p">So how do you get a whole company to speak one language — the language of the customer?</p>
+  <p class="article-p">This is an especially pressing issue for customer service teams. From a technology perspective, support comes with challenges that neither localization nor machine-only translation could handle.</p>
+  <p class="article-p">For example, at the peak of COVID-19 pandemic, the <a href="#">travel industry</a>  was inundated with cancellations around the world. But most businesses were also quick to scale down their teams. In this case, hiring native speakers or heavily outsourcing was not a scalable solution for dealing with customer requests in different languages.</p>
+  <p class="article-p">Fortunately, Unbabel has already established AI-powered, human-in-the-loop machine translation as the <a href="#">best approach</a> to solve multilingual communication issues in customer service. And this is where a unified LangOps strategy can make the most impact.</p>
+  <h4 class="bolder">AI-powered machine translation and human editors reduce response times, maintain high quality and empathy, and ultimately empower customer service agents to offer relevant support without worrying about their language skills.</h4>
+  <h4>No wonder 94% of decision-makers in customer service agree that LangOps could be extremely or very important for their organizations’ global market strategy.*</h4>
+  <img src="./lang-ops/LangOps-platform.svg" class="mb-5" alt="">
+ </article>
+ <div class="col-12 navy text-center">
+  <h2 class="m-auto">How LangOps Works: Technology + <br> Community + Data to Propel Success</h2>
+ </div>
+ <article>
+  <p class="article-p mt-5 ">LangOps centralizes resources to streamline multilingual translations across the organization.</p>
+  <p class="article-p">We've done our <a href="#">research</a>, and these are the pillars of a solid LangOps function that make this vision possible:</p>
+  <ul>
+   <li><p class="bold">LangOps team</p>
+    <p class="article-p">Instead of teams handling their translation efforts individually, a LangOps team (or manager) owns the translation operations across the various departments. This gives a holistic view of the translation processes within the organization. It also ensures consistency and efficient management.</p>
+   </li>
+   <li><p class="bold">Translation layer</p>
+    <p class="article-p">The translation technology layer is the AI-powered, machine translation component that automates and enables near real-time translation and quality estimation. It makes the whole process faster, scalable, and more efficient.</p>
+   </li>
+   <li> <p class="bold">Community of editors </p> 
+    <p class="article-p">LangOps combines AI with human intelligence.<a href="#"> Human editors</a>  review and refine automated translations to ensure high quality and also help train the translation engine, ensuring continuous machine learning improvements.</p>
+   </li>
+   <li><p class="bold">Transparency</p> 
+    <p class="article-p"> 
+     The LangOps approach enables visibility with a fully equipped dashboard — the <a href="#">Unbabel Portal</a>  lets you monitor key metrics and fine-tune the translations every time. It also enables operationalizing the use of languages across the organization.</p>
+   </li>
+   <li><p class="bold">Integrations</p>
+    <p class="article-p">With deft, <a href="#">seamless integrations</a>, LangOps plugs into the platforms you're currently using to connect with your customers and prospects — quickly translating any content you send out through any <strong><a href="#">digital channel</a></strong> (chat, email, and FAQs, for starters).</p>
+   </li>
+   <li><p class="bold">Data and analytics</p>
+    <p class="article-p">The dashboard provides timely and accurate analytics on the LangOps function and performance, such as <a href="#">translation quality</a> , number of language pairs translated, and so on. The LangOps manager then draws <a href="#"> key insights</a> and helps guide and refine the language strategy for the entire organization.</p>
+   </li>
+  </ul>
+  <img src="./lang-ops/image-1.png" height="250px" class="mb-5" alt="">
+ </article>
+ <div class="col-12 navy text-center">
+  <h2 class="m-auto">Advantages of LangOps</h2>
+ </div>
+ <article>
+  <p class="article-p">Using a <a href="#"> LangOps platform</a> comes with several advantages. One of them is not having to know a second language ever.</p>
+  <p class="article-p">Okay, that may or may not be true, but here are some real benefits.</p>
+ <div class="container">
+  <div class="row pb-5">
+  <div class="col-6 text-center pe-3">
+    <img src="./lang-ops/Pillar-Page-illustrations-V1-16.svg" height="220px" class="mb-5" alt="">
+    <h3>Scaling without compromising on quality</h3>
+    <p>LangOps' human-in-the-loop AI translation approach combines the speed and efficiency of machine translation with the accuracy and context in human translation. It enables near real-time translation and the preservation of cultural nuances, allowing organizations to scale without outsourcing or localizing content piece by piece.</p>
+  </div>
+  <div class="col-6 text-center">
+    <img src="./lang-ops/LangOps-advantages-hiring.svg" height="220px" class="mb-5" alt="">
+    <h3>Hiring for expertise, not language</h3>
+    <p>LangOps makes near real-time translations in any language possible without relying heavily on hiring native speakers or outsourcing. This means that businesses can now afford to be language-agnostic and hire talent based on product knowledge and skills, not fluency. Your customers get the native language support they need without even sensing any language barriers.</p>
+  </div>
+  <div class="col-6 text-center">
+    <img src="./lang-ops/LangOps-advantages-centralized.svg" height="220px" class="mb-5" alt="">
+    <h3>Centralized and consistent translation process</h3>
+    <p>Instead of every team in an organization operating in a silo, a LangOps team would equip the various departments to be successful with AI. Some of the LangOps team's responsibilities include defining and delivering the operational strategy for language, streamlining business processes to increase efficiency, ensuring that the multilingual machine translation models are trained with the organization's data, and measuring results.</p>
+  </div>
+  <div class="col-6 text-center">
+    <img src="./lang-ops/LangOps-advantages-holistic.svg" height="220px" class="mb-5" alt="">
+    <h3>Complete, holistic view of the organization's language strategy (and the data to support it)</h3>
+    <p>LangOps eliminates the need for one-off localization projects and unleashes the revenue-driving and brand-building potential of native language. With deep insights, you continue to refine your globalization strategy and understand what languages and markets need more attention.</p>
+  </div>
+  <div>
+     <img src="./lang-ops/majorel_logo.svg" class="ms-4" height="70px" alt="">
+  <h3 class="bolder ps-3">"Unbabel is positioning itself as a visionary in the space with its recognition that LangOps can transform the industry. We wholeheartedly agree that having a unified approach to language beyond translation can enable companies to better service their customers and grow their global footprint."</h4>
+  <h4 class="ps-3">Marco Amorim,</h4>
+<p class="article-p ps-3 mb-5">Global Transformation Lead Architect, Majorel</p>
+  </div>
+ 
+<p class="article-p">Ultimately, the goal of LangOps is to empower organizations of any size to reach the scale and measurability of a sophisticated multinational corporation.</p>
+<p class="article-p">LangOps clearly establishes language as a way to fuel international growth and <a href="#">increase customer satisfaction</a>. By treating language as a company-wide, strategic imperative, LangOps harnesses machine and human-refined translation to power an efficient language strategy that spans the entire organization. It's crucial to business growth: <strong>That's why more than half of the decision makers in our 
+<a href="#">survey</a> said they'd implement LangOps in their organization within five to six months.</strong> </p>
+<p class="article-p">Join them in believing the true potential of language: Get started with <a href="#">Unbabel's AI-powered Language Operations platform.</a> </p>
+</div>
+ </div>
+ </article>
+</section>
+
+
+<!-- card carousel -->
+<section>
+  <div class="container">
+    <h2>Learn More about LangOps</h2>
+    <div class="row mb-5">
+      <div class="card" style="width: 20rem;">
+        <img src="./lang-ops/image-19.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a href="#" class="card-title">What's New at Unbabel - a Recap ofRecent Launches </a> 
+          <p class="card-text mt-5">Learn More</p>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem;">
+        <img src="./lang-ops/Unbabel-TowerLLM-Blog-Header.png" class="card-img-top" alt="...">
+        <div class="card-body" style="width: 20rem;">
+          <a href="#" class="card-title">Announcing Tower: An Open Multilingual LLM for Translation-Related Tasks</a> 
+          <p class="card-text mt-5">Learn More</p>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem;">
+        <img src="./lang-ops/Best-Practices-in-Localizing-WrittenImages.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a href="#" class="card-title">Best Practices in Marketing Localisation Part Three:Localising Written Content</a> 
+          <p class="card-text mt-5">Learn More</p>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem;">
+        <img src="./lang-ops/Year-one-of-chatGPT-Organic-LI-Twitter-_-WP-feature-image-post-event@2x-100.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a href="#" class="card-title">A Year of GPT with Unbabel CSA Research and Dell</a> 
+          <p class="card-text mt-5">Learn More</p>
+        </div>
+      </div>
+      </div>
+      <div class="text-center ready">
+        <h2 class=" mb-5">Ready to Power Your Organization's Language <br> Strategy?</h2>
+        <p class="mb-5">LangOps helps you fuel growth, drive revenue, and exceed expectations.</p>
+        <button class="btn btn-lg hero-btn1 rounded-pill" >Find out how</button>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- footer section -->
+<section class="footer-sec pb-3 pt-3">
+ <div class="container-fluid pt-5">
+   <footer class="ms-5">
+     <div>
+       <div class="row pb-4">
+         <div class="col-7 d-flex flex-row">
+           <div>
+              <img src="./unbabel-real/unbabel footer.svg" alt="">
+           </div>
+           <div class="ms-5">
+             <h5>PRODUCT</h5>
+             <ul class="nav flex-column">
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Product overview</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Integration</a></li>
+             </ul>
+           </div>
+           <div class="ms-5">
+             <h5>RESOURCES</h5>
+             <ul class="nav flex-column">
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Resource Center</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Blog</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Research</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Editor Hub</a></li>
+             </ul>
+           </div>
+           <div class="ms-5">
+             <h5>COMPANY</h5>
+             <ul class="nav flex-column">
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">About Us</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Partnerships</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Careers</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Contact Us</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Press & Media</a></li>
+             </ul>
+           </div>
+           <div class="ms-5">
+             <h5>HELP CENTER</h5>
+             <ul class="nav flex-column">
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">For our Customers</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0">For our Editors</a></li>
+             </ul>
+           </div>
+         </div>
+         <div class="col-3"></div>
+         <div class="col-2">
+           <div>
+           <ul class="nav flex-column">
+             <li class="nav-item mb-4"><a href="#" class="nav-link p-0"><img src="./unbabel-real/login.svg" alt="" class="me-3"> Login</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0"><img src="./unbabel-real/Newsletter (2).svg" class="me-3" alt="">Join our Newsletter</a></li>
+           </ul>
+         </div></div>
+       </div>
+       <div class="d-flex flex-column flex-sm-row justify-content-between pt-3 py-4 my-4 border-top">
+         <div class="d-flex flex-row align-items-center">
+           <p class="me-5">&copy; 2024 Unbabel Inc.</p>
+           <ul class="nav flex-row">
+             <li class="nav-item mb-2 me-5 P-small"><a href="#" class="nav-link p-0">Terms of Service</a></li>
+             <li class="nav-item mb-2 me-5 P-small"><a href="#" class="nav-link p-0">Terms & Condition</a></li>
+             <li class="nav-item mb-2 me-5 P-small"><a href="#" class="nav-link p-0">Privacy</a></li>
+             <li class="nav-item mb-2 me-5 P-small"><a href="#" class="nav-link p-0">Cookie Policy</a></li>
+             <li class="nav-item mb-2 me-5 P-small"><a href="#" class="nav-link p-0">Responsible Disclosure</a></li>
+           </ul>
+         </div>
+         <ul class="list-unstyled d-flex me-4">
+           <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./unbabel-real/facebook.svg" alt=""></a></li>
+           <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./unbabel-real/youtube.svg" alt=""></a></li>
+           <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./unbabel-real/twitter.svg" alt=""></a></li>
+           <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./unbabel-real/linkedin.svg" alt=""></a></li>
+           <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./unbabel-real/instagram.svg" alt=""></a></li>
+         </ul>
+       </div>
+     </div>
+   </footer>
+   </div>
+</section>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
